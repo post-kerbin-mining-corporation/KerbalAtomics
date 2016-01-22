@@ -1,4 +1,4 @@
-0.1.X1
+0.1.0
 ------
-- Initial test
+- Initial release
 
