@@ -1,8 +1,22 @@
-======================
-KERBAL ATOMICS v0.1.X1
-======================
+=====================
+KERBAL ATOMICS v0.1.0
+=====================
 
-This pack aims to revamp and modify nuclear propulsion systems in KSP.
+This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen. 
+Liquid Hydrogen is a messy fuel that leaks out of most tanks (slowly) and takes up a lot of space, but gives the highest possible specific impulse. Included are patches that allow all stock fuel tanks to contain the appropriate resources, and a set of new specialized LiquidHydrogen tanks that are insulated to stop leakage.
+
+
+============
+DEPENDENCIES
+============
+
+Required:
+- InterstellarFuelSwitch (v1.18)
+- Community Resource Pack (0.4.7)
+- ModuleManager (v2.6.13)
+
+Optional
+- Community Tech Tree (v2.2+)
 
 ============
 INSTALLATION
@@ -27,3 +41,9 @@ LICENSING
 The contents of this pack are distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 You are free to share and adapt the materials only for non-commercial purposes and when providing appropriate attribution. Any derivatives must be distributed under the same license. 
+
+Module Manager (v2.6.6) is distributed under its own licence (CC-SA). Please find source code and more details at https://github.com/sarbian/ModuleManager
+
+Interstellar Fuel Switch (v1.16) is distributed under its own licence (CC-NC-SA). Please find source code and more details at https://github.com/sswelm/KSPInterstellar/tree/master/FuelSwitch
+
+The Community Resource pack (v0.4.4) by RoverDude is also distributed under its own license.
