@@ -1,3 +1,11 @@
+0.1.1
+-----
+- Updated bundled CRP to 0.4.9.0
+- Fixed tech locations for nuclear rockets
+- Increased Neptune thrust to 67 from 62.5
+- When converted to LH2, most NTRs now benefit from a mass reduction
+- Reduced boiloff cooling cost to 0.08 Ec/1000u from 0.1 Ec/1000u
+
 0.1.0
 ------
 - Initial release
