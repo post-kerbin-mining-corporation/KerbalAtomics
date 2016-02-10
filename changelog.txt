@@ -5,6 +5,7 @@
 - Increased Neptune thrust to 67 from 62.5
 - When converted to LH2, most NTRs now benefit from a mass reduction
 - Reduced boiloff cooling cost to 0.08 Ec/1000u from 0.1 Ec/1000u
+- New Extras patch converting engines to LF-only. LF-only engines have reduced Isp and TWRs comparable to those from Atomic Age
 
 0.1.0
 ------
