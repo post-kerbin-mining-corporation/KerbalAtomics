@@ -1,3 +1,16 @@
+0.1.2
+-----
+- Reduced power generation of trimodal engines
+- Tweaked descriptions for some engines
+- Patched LV-N now uses ModuleEnginesFX, new FX
+- Added optional patch to unlock fancier NTR functionality with NF Electrical:
+-- Engines have integrated reactors, reactors must heat up to nominal temperature in order to produce good thrust and Isp
+-- Engines act as core heat radiators, cooling the core as a function of thrust fraction. Full thrust will cool the core completely. Without thrust or lots of radiators the core will overheat
+-- Reactors will run out of fuel eventually; use much more fuel than long-term power reactors
+-- Trimodal reactors have a generator component that takes priority over the engine. It will use a small amount of heat to create power. Keep reactor power low to use it separate from the engine
+-- Engine heat production cut by factor of 10
+-- Only applies to KerbalAtomics engines and the LV-N at the moment
+
 0.1.1
 -----
 - Updated bundled CRP to 0.4.9.0
