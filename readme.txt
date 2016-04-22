@@ -1,5 +1,5 @@
 =====================
-KERBAL ATOMICS v0.1.2
+KERBAL ATOMICS v0.2.1
 =====================
 
 This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen. 
@@ -11,9 +11,9 @@ DEPENDENCIES
 ============
 
 Required:
-- InterstellarFuelSwitch (v1.18)
-- Community Resource Pack (0.4.9)
-- ModuleManager (v2.6.13)
+- B9PartSwitch (1.01)
+- Community Resource Pack (0.5.0)
+- ModuleManager (v2.6.22)
 
 Optional
 - Community Tech Tree (v2.2+)
@@ -22,9 +22,20 @@ Optional
 INSTALLATION
 ============
 
+I recommend removing any previous versions of Kerbal Atomics before installing an update.
+
 To install, place the GameData folder inside your Kerbal Space Program folder. If asked to overwrite files, do so. 
 
 I recommend the use of the Community Tech Tree (http://forum.kerbalspaceprogram.com/threads/100385-Community-Tech-Tree-1-0), which will place engines in various high tech nodes.
+
+======================
+INSTALLATION OF EXTRAS
+======================
+
+Some extra patches are bundled that you can use to tweak your installation. To install them, drop the correct folder from the Extras folder in this archive into your KSP GameData Folder
+
+NTRsUseLF: Reverts all NTRs to using Liquid Fuel
+NearFutureElectricalNTRs: Advanced NTR management when coupled with Near Future Electrical (EXPERIMENTAL)
 
 ============
 KSP-MINI-AVC
@@ -42,8 +53,8 @@ The contents of this pack are distributed under a Creative Commons Attribution-N
 
 You are free to share and adapt the materials only for non-commercial purposes and when providing appropriate attribution. Any derivatives must be distributed under the same license. 
 
-Module Manager (v2.6.6) is distributed under its own licence (CC-SA). Please find source code and more details at https://github.com/sarbian/ModuleManager
+Module Manager (v2.6.22) is distributed under its own licence (CC-SA). Please find source code and more details at https://github.com/sarbian/ModuleManager
 
-Interstellar Fuel Switch (v1.16) is distributed under its own licence (CC-NC-SA). Please find source code and more details at https://github.com/sswelm/KSPInterstellar/tree/master/FuelSwitch
+The Community Resource Pack (v0.5.0) by RoverDude is also distributed under its own license.
 
-The Community Resource pack (v0.4.4) by RoverDude is also distributed under its own license.
+B9PartSwitch (v1.01) by blowfish is also distributed under its own license.

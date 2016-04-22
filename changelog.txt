@@ -1,3 +1,18 @@
+v0.2.1
+------
+- Fix bundled B9PartSwitch 
+- Fix switchable tank mass and cost issues
+
+v0.2.0
+------
+- KSP 1.1 repack
+- Updated CRP version
+- Updated bundled MM version
+- Deprecated IFS in favour of B9PartSwitch
+- Added part search tags for parts
+- In basic mode, trimodal NTRs no longer generate power when firing
+- Fixed missing AFTER tag in LiquidFuel extra patch
+
 0.1.2
 -----
 - Reduced power generation of trimodal engines
