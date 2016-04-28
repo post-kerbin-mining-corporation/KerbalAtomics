@@ -1,3 +1,41 @@
+v0.2.1
+------
+- Fix bundled B9PartSwitch 
+- Fix switchable tank mass and cost issues
+
+v0.2.0
+------
+- KSP 1.1 repack
+- Updated CRP version
+- Updated bundled MM version
+- Deprecated IFS in favour of B9PartSwitch
+- Added part search tags for parts
+- In basic mode, trimodal NTRs no longer generate power when firing
+- Fixed missing AFTER tag in LiquidFuel extra patch
+
+0.1.2
+-----
+- Reduced power generation of trimodal engines
+- Tweaked descriptions for some engines
+- Patched LV-N now uses ModuleEnginesFX, new FX
+- Added optional patch to unlock fancier NTR functionality with NF Electrical:
+-- Engines have integrated reactors, reactors must heat up to nominal temperature in order to produce good thrust and Isp
+-- Engines act as core heat radiators, cooling the core as a function of thrust fraction. Full thrust will cool the core completely. Without thrust or lots of radiators the core will overheat
+-- Reactors will run out of fuel eventually; use much more fuel than long-term power reactors
+-- Trimodal reactors have a generator component that takes priority over the engine. It will use a small amount of heat to create power. Keep reactor power low to use it separate from the engine
+-- Engine heat production cut by factor of 10
+-- Only applies to KerbalAtomics engines and the LV-N at the moment
+
+0.1.1
+-----
+- Updated bundled CRP to 0.4.9.0
+- Fixed ISRU patch not affecting the mini ISRU
+- Fixed tech locations for nuclear rockets
+- Increased Neptune thrust to 67 from 62.5
+- When converted to LH2, most NTRs now benefit from a mass reduction
+- Reduced boiloff cooling cost to 0.08 Ec/1000u from 0.1 Ec/1000u
+- Added new Extras patch converting engines to LF-only. LF-only engines have reduced Isp and TWRs, comparable to those from Atomic Age and Stock
+
 0.1.0
 ------
 - Initial release
