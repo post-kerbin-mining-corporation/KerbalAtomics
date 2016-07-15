@@ -1,3 +1,8 @@
+v0.2.5
+------
+- Tweaks to NTR patch properties
+- Cost adjustments 
+
 v0.2.4
 ------
 - Fixed misbundled dll ruining everything
