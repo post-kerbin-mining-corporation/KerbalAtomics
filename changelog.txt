@@ -1,7 +1,36 @@
-v0.2.1
+v0.2.6
 ------
-- Fix bundled B9PartSwitch 
+- Balance tweaks to NTRs
+- Added some model features and patches for Radioactivity dev
+- Fixed an issue with cryogenic boiloff never turning off if cooling failed
+
+v0.2.5
+------
+- Tweaks to NTR patch properties
+- Cost adjustments 
+
+v0.2.4
+------
+- Fixed misbundled dll ruining everything
+
+v0.2.3
+------
+- KSP 1.1.3
+- Updated bundled B9PartSwitch
+- Updated bundled MM
+- Updated bundled CRP
+- Updated bundled DeployableEngines
+- Improved FX for some engines
+
+v0.2.2
+------
+- KSP 1.1.2
+- Fix bundled B9PartSwitch
+- Update bundled MM version
+- Update bundled CRP version 
 - Fix switchable tank mass and cost issues
+- Fixed SXT hydrogen NTR patch typo
+- Added a few more NTR configs courtesy of forumgoers
 
 v0.2.0
 ------
