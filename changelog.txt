@@ -1,3 +1,10 @@
+v0.3.0
+------
+- KSP 1.2
+- Reexported engine FX to fix interaction with atmospheric/highlight FX
+- Removed Radioactivity patch (should really be *in* Radioactivity)
+- Add LV-N-GX 'Emancipator' open cycle gas-core nuclear rocket
+
 v0.2.6
 ------
 - Balance tweaks to NTRs
