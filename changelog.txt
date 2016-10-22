@@ -1,3 +1,7 @@
+v0.3.1
+------
+- Fixed contract killing issues
+
 v0.3.0
 ------
 - KSP 1.2
@@ -10,9 +14,11 @@ v0.3.0
 - Added LV-N-GX 'Emancipator' open cycle gas-core nuclear rocket
 - CryoTanks:
 -- General functionality improvements
+-- Tank real power usage is now shown in the info box
 -- Right clicking on a tank in the VAB now displays its power usage
 -- New analytics mode that runs at 1000x time warp and up which should do a much better job of calculating boiloff
 -- Lifting and ZBO tanks now have the same mass ratio
+-- ZBO tanks have a new alternate model that can be selected
 
 v0.2.6
 ------
