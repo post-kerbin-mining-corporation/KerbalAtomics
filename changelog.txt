@@ -1,3 +1,10 @@
+v0.3.2
+------
+- Updated CRP to 6.0.1
+- Fixed exceptions in VAB when using a ZBO tank for holding only non-cryo fuels
+- Fixed incorrect dry masses for ZBO tanks
+- Improved NFE compatibility for Emancipator engine
+
 v0.3.1
 ------
 - Fixed contract killing issues
@@ -29,7 +36,7 @@ v0.2.6
 v0.2.5
 ------
 - Tweaks to NTR patch properties
-- Cost adjustments 
+- Cost adjustments
 
 v0.2.4
 ------
@@ -49,7 +56,7 @@ v0.2.2
 - KSP 1.1.2
 - Fix bundled B9PartSwitch
 - Update bundled MM version
-- Update bundled CRP version 
+- Update bundled CRP version
 - Fix switchable tank mass and cost issues
 - Fixed SXT hydrogen NTR patch typo
 - Added a few more NTR configs courtesy of forumgoers
@@ -90,4 +97,3 @@ v0.2.0
 0.1.0
 ------
 - Initial release
-
