@@ -1,3 +1,10 @@
+v0.3.3
+------
+- Marked for KSP 1.2.1
+- Updated bundled MM to 2.7.3
+- Fixed missing CTT patch for Emancipator engine
+
+
 v0.3.2
 ------
 - Updated CRP to 6.0.1
