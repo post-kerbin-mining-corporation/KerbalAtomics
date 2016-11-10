@@ -12,7 +12,7 @@ DEPENDENCIES
 
 Required:
 - B9PartSwitch (1.5.1)
-- Community Resource Pack (6.0.1)
+- Community Resource Pack (0.6.2)
 - ModuleManager (v2.7.3)
 
 Optional

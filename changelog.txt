@@ -2,6 +2,7 @@ v0.3.3
 ------
 - Marked for KSP 1.2.1
 - Updated bundled MM to 2.7.3
+- Updated bundled CRP to 0.6.2
 - Fixed missing CTT patch for Emancipator engine
 - Increased thermal mass and explosion heat maximum of Emancipator engine
 
