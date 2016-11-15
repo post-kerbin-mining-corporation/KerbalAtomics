@@ -5,6 +5,7 @@ v0.3.3
 - Updated bundled CRP to 0.6.3
 - Fixed missing CTT patch for Emancipator engine
 - Increased thermal mass and explosion heat maximum of Emancipator engine
+- KPBS ISRU now produces LH2 (thanks Wyzard256)
 
 v0.3.2
 ------
