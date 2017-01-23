@@ -1,5 +1,5 @@
 =====================
-KERBAL ATOMICS v0.3.3
+KERBAL ATOMICS v0.3.4
 =====================
 
 This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen.
@@ -11,9 +11,9 @@ DEPENDENCIES
 ============
 
 Required:
-- B9PartSwitch (1.5.1)
-- Community Resource Pack (0.6.3)
-- ModuleManager (v2.7.4)
+- B9PartSwitch (1.5.3)
+- Community Resource Pack (0.6.4)
+- ModuleManager (v2.7.5)
 
 Optional
 - Community Tech Tree (v3.0+)
@@ -49,12 +49,11 @@ For a more comprehensive version checking experience, please download the KSP-AV
 LICENSING
 =========
 
-The contents of this pack are distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The cfgs and code in this pack are distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). You are free to share and adapt the materials only for non-commercial purposes and when providing appropriate attribution. Any derivatives must be distributed under the same license.
+The art assets in this pack (all models and textures) are distributed under an All Rights Reserved License. You may not redistribute or re-use these assets without express permission from me.
 
-You are free to share and adapt the materials only for non-commercial purposes and when providing appropriate attribution. Any derivatives must be distributed under the same license.
+Module Manager is distributed under its own licence (CC-SA). Please find source code and more details at https://github.com/sarbian/ModuleManager
 
-Module Manager (v2.6.22) is distributed under its own licence (CC-SA). Please find source code and more details at https://github.com/sarbian/ModuleManager
+The Community Resource Pack by RoverDude is also distributed under its own license.
 
-The Community Resource Pack (v0.5.0) by RoverDude is also distributed under its own license.
-
-B9PartSwitch (v1.01) by blowfish is also distributed under its own license.
+B9PartSwitch by blowfish is also distributed under its own license.
