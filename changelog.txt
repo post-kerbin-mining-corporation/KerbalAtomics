@@ -5,6 +5,7 @@ v0.3.4
 - Updated bundled B9PartSwitch to 1.5.3
 - Updated bundled CRP to 0.6.4
 - Updated DeployableEngines to 2.1.0
+- Fixed a typo in an NFE extras patch
 
 v0.3.3
 ------
