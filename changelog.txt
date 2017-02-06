@@ -1,6 +1,7 @@
 v0.3.5
 ------
 - Updated B9PartSwitch to 1.7.1
+- Updated CRP to 0.6.6
 - Updated AVC link
 
 v0.3.4
