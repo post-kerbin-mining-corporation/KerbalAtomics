@@ -1,3 +1,7 @@
+v0.4.0
+------
+- Fixed a NTR-LF patch resetting mass of the AtomicAge RTG to 3.0
+
 v0.3.5
 ------
 - Updated B9PartSwitch to 1.7.1
