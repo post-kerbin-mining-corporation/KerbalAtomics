@@ -1,5 +1,8 @@
 v0.4.0
 ------
+- KSP 1.3
+- Switched to KSP 1.3's localization for strings
+- Fixed a number of ModuleEngines/ModuleEnginesFX issues in the NTR-LF patch
 - Fixed a NTR-LF patch resetting mass of the AtomicAge RTG to 3.0
 
 v0.3.5
