@@ -1,6 +1,10 @@
 v0.4.0
 ------
 - KSP 1.3
+- Updated MM to 2.8.0
+- Updated B9PartSwitch to 1.8.0
+- Updated CRP to 0.7.1
+- Updated MiniAVC to 1.0.3.3
 - Switched to KSP 1.3's localization for strings
 - Renamed engine model numbers so they're not matching the LV-N anymore
 - Completely changed NTR -> LH2 patches
