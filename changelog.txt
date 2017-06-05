@@ -12,6 +12,7 @@ v0.4.0
 - Rebalanced engine costs to be generally higher
 - Renamed engine model numbers so they're not matching the LV-N anymore
 - Adjusted CTT locations of some engines
+- Adjusted balance of LH2->LF patches for some KA engines
 - Completely changed NTR -> LH2 patches
 -- Any NTR that is not handled in a custom fashion has been replaced by a dynamic patcher by TheToric
 -- All NTRs patched in this way are consistently buffed with a 25% mass decrease and a 10% Isp increase
