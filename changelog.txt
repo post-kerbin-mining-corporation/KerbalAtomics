@@ -10,13 +10,34 @@ v0.4.0
 - Added NV-GL 'Deliverance' Atomic Aerospike Rocket: 2.5m closed-cycle gas-core nuclear aerospike
 - Added NV-DC 'Scylla' Atomic Aerospike Rocket: 3.75m solid-core trimodal nuclear aerospike with LOX afterburner and cogeneration
 - Rebalanced engine costs to be generally higher
-- Renamed engine model numbers so they're not matching the LV-N anymore
+- Renamed engine model numbers so they're not matching the LV-N anymore (different company)
 - Adjusted CTT locations of some engines
 - Adjusted balance of LH2->LF patches for some KA engines
 - Completely changed NTR -> LH2 patches
 -- Any NTR that is not handled in a custom fashion has been replaced by a dynamic patcher by TheToric
 -- All NTRs patched in this way are consistently buffed with a 25% mass decrease and a 10% Isp increase
 -- The LF-reversion patch is similarly optimized
+- Significant improvements to CryoTanks package
+-- Normalized LH2 tank mass ratios to 5 (from ~3.5), this affects all tanks containing LH2 or LH2/OX
+-- Normalized naming scheme for ZBO tanks to reflect their capacities
+-- Reworked tank capacities
+-- Improved fuel switching patch to account for more exceptions
+-- New 5m tank models (15m and 7.5m lengths)
+-- Deprecated 3.75m length tank variant for 3.75m inline tanks (temporary)
+-- Reworked models and textures for all fuel tanks
+-- New structureless variants for all inline tanks
+-- Optimized SimpleBoiloff plugin
+-- Reduced the scope of the SimpleBoiloff plugin, most advanced functions are now part of DynamicBatteryStorage
+-- New sub-plugin: DynamicBatteryStorage
+--- Dynamically adjusts EC storage to combat KSP crap resource mechanics at high timewarp
+--- Should dramatically reduce instances of EC loss at high timewarp
+- Significant improvements to NF Electrical integration
+-- Part costs are correctly adjusted for EnrichedUranium cost so that there are no more zero-cost engines
+-- Negative alternators are and generators are correctly removed from the parts when patches are in use
+-- Engine reactor can now correctly start before being staged
+-- Reduced heat transfer between cores and parts
+-- Reduced heat generation of conventional engine modules
+-- Cleaned up and labeled config files for more clarity
 
 v0.3.5
 ------
