@@ -10,6 +10,7 @@ v0.4.0
 - Added NV-GL 'Deliverance' Atomic Aerospike Rocket: 2.5m closed-cycle gas-core nuclear aerospike
 - Added NV-DC 'Scylla' Atomic Aerospike Rocket: 3.75m solid-core trimodal nuclear aerospike with LOX afterburner and cogeneration
 - Rebalanced engine costs to be generally higher
+- Rebalanced engine heat to be generally higher
 - Renamed engine model numbers so they're not matching the LV-N anymore (different company)
 - Adjusted CTT locations of some engines
 - Adjusted balance of LH2->LF patches for some KA engines
@@ -18,6 +19,7 @@ v0.4.0
 -- All NTRs patched in this way are consistently buffed with a 25% mass decrease and a 10% Isp increase
 -- The LF-reversion patch is similarly optimized
 - Significant improvements to CryoTanks package
+-- Now versioned (Version 0.4.0)
 -- Normalized LH2 tank mass ratios to 5 (from ~3.5), this affects all tanks containing LH2 or LH2/OX
 -- Normalized naming scheme for ZBO tanks to reflect their capacities
 -- Reworked tank capacities
@@ -36,7 +38,7 @@ v0.4.0
 -- Negative alternators are and generators are correctly removed from the parts when patches are in use
 -- Engine reactor can now correctly start before being staged
 -- Reduced heat transfer between cores and parts
--- Reduced heat generation of conventional engine modules
+-- Greatly reduced heat generation of conventional engine modules
 -- Cleaned up and labeled config files for more clarity
 
 v0.3.5
