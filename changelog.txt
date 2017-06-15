@@ -14,6 +14,8 @@ v0.4.0
 - Renamed engine model numbers so they're not matching the LV-N anymore (different company)
 - Adjusted CTT locations of some engines
 - Adjusted balance of LH2->LF patches for some KA engines
+- Fixed engine throttle and glow effects so that they show for all modes of bimodal engines
+- Fixed engine FX somewhat so that they don't interact with atmospheric FX
 - Completely changed NTR -> LH2 patches
 -- Any NTR that is not handled in a custom fashion has been replaced by a dynamic patcher by TheToric
 -- All NTRs patched in this way are consistently buffed with a 25% mass decrease and a 10% Isp increase
