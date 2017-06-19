@@ -1,6 +1,14 @@
 v0.4.1
 ------
 - Fixed localization error on Scylla part switcher
+- Fixed incorrect mass, cost, thrust, specific impulse of Eel
+- Fixed missing shroud texture of Eel
+- CryoTanks 0.4.1
+-- Fixed volumes and descriptions of 5m hydrogen tanks
+-- Normalized specular exponents and normal map depths on all tanks
+-- Fixed a mesh duplication issue on 3.75m tanks
+-- Reduced instances of distorted tanget normal map seams on all tanks, where I couldn't fix it I've covered the worst instances with 'intentional' seams
+-- Restructured UV of 5m tanks to reduce tangent seam occurrance. 
 
 v0.4.0
 ------
