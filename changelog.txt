@@ -8,7 +8,7 @@ v0.4.1
 -- Normalized specular exponents and normal map depths on all tanks
 -- Fixed a mesh duplication issue on 3.75m tanks
 -- Reduced instances of distorted tanget normal map seams on all tanks, where I couldn't fix it I've covered the worst instances with 'intentional' seams
--- Restructured UV of 5m tanks to reduce tangent seam occurrance. 
+-- Restructured UV of 5m tanks to reduce tangent seam frequency
 
 v0.4.0
 ------
