@@ -1,5 +1,6 @@
 v0.4.2
 ------
+- Updated B9PartSwitch to version 1.8.1
 - CryoTanks 0.4.2
 -- Fix incorrectly exported model for small 2.5m hydrogen tank
 -- Fix doubled dry mass of all hydrogen-containing tanks
