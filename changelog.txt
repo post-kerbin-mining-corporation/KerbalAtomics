@@ -1,3 +1,9 @@
+v0.4.2
+------
+- CryoTanks 0.4.2
+-- Fix incorrectly exported model for small 2.5m hydrogen tank
+-- Fix doubled dry mass of all hydrogen-containing tanks
+
 v0.4.1
 ------
 - Fixed localization error on Scylla part switcher
