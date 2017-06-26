@@ -1,3 +1,22 @@
+v0.4.2
+------
+- Updated B9PartSwitch to version 1.8.1
+- CryoTanks 0.4.2
+-- Fix incorrectly exported model for small 2.5m hydrogen tank
+-- Fix doubled dry mass of all hydrogen-containing tanks
+
+v0.4.1
+------
+- Fixed localization error on Scylla part switcher
+- Fixed incorrect mass, cost, thrust, specific impulse of Eel
+- Fixed missing shroud texture of Eel
+- CryoTanks 0.4.1
+-- Fixed volumes and descriptions of 5m hydrogen tanks
+-- Normalized specular exponents and normal map depths on all tanks
+-- Fixed a mesh duplication issue on 3.75m tanks
+-- Reduced instances of distorted tanget normal map seams on all tanks, where I couldn't fix it I've covered the worst instances with 'intentional' seams
+-- Restructured UV of 5m tanks to reduce tangent seam frequency
+
 v0.4.0
 ------
 - KSP 1.3
@@ -5,6 +24,7 @@ v0.4.0
 - Updated B9PartSwitch to 1.8.0
 - Updated CRP to 0.7.1
 - Updated MiniAVC to 1.0.3.3
+- Rebuilt DeployableEngines for KSP 1.3
 - Switched to KSP 1.3's localization for strings
 - Added NV-10 'Eel' Atomic Rocket Motor: 0.625m solid-core nuclear engine with cogeneration
 - Added NV-GL 'Deliverance' Atomic Aerospike Rocket: 2.5m closed-cycle gas-core nuclear aerospike
@@ -31,6 +51,7 @@ v0.4.0
 -- Reworked models and textures for all fuel tanks
 -- New structureless variants for all inline tanks
 -- Optimized SimpleBoiloff plugin
+-- Cooling functions can now be disabled in the VAB
 -- Reduced the scope of the SimpleBoiloff plugin, most advanced functions are now part of DynamicBatteryStorage
 -- New sub-plugin: DynamicBatteryStorage
 --- Dynamically adjusts EC storage to combat KSP crap resource mechanics at high timewarp
