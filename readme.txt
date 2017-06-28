@@ -38,6 +38,13 @@ NTRsUseLF: Reverts all NTRs to using Liquid Fuel
 NearFutureElectricalNTRs: Advanced NTR management when coupled with Near Future Electrical (EXPERIMENTAL)
 
 ============
+LOCALIZATION
+============
+
+This mod includes localization support, and includes translations for
+- Spanish (KSP forum user fitiales)
+
+============
 KSP-MINI-AVC
 ============
 
