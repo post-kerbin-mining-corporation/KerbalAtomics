@@ -1,6 +1,8 @@
 v0.4.3
 ------
 - Added Spanish localization from fititales
+- Split KA/NFE patches into separate files due to their complexity
+- Fixed Scylla and Neptune having duplicated KA/NFE patches
 
 v0.4.2
 ------
