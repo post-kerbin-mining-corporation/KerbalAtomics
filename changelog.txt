@@ -3,6 +3,11 @@ v0.4.3
 - Added Spanish localization from fititales
 - Split KA/NFE patches into separate files due to their complexity
 - Fixed Scylla and Neptune having duplicated KA/NFE patches
+- CryoTanks 0.4.3
+-- Added Spanish localization from fititales
+- Updated DynamicBatteryStorage to 1.0.1
+-- Reduced logging
+-- Fixed an issue with generator parsing on ModuleResourceConverters
 
 v0.4.2
 ------
