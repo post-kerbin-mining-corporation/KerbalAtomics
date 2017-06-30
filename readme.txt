@@ -1,5 +1,5 @@
 =====================
-KERBAL ATOMICS v0.4.3
+KERBAL ATOMICS v0.4.4
 =====================
 
 This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen.
