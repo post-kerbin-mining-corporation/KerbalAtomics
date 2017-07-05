@@ -1,3 +1,11 @@
+v0.4.5
+------
+- Updated bundled B9PartSwitch to 1.9.0
+- Updated bundled MM to 2.8.1
+- Fixed missing @ in NFElectrical patch for Eel
+- CryoTanks 0.4.4
+-- Fixed dry mass of LH2-only ZBO tanks
+
 v0.4.4
 ------
 - Fix DBS version file
