@@ -1,3 +1,26 @@
+v0.4.5
+------
+- Updated bundled B9PartSwitch to 1.9.0
+- Updated bundled MM to 2.8.1
+- Fixed missing @ in NFElectrical patch for Eel
+- CryoTanks 0.4.4
+-- Fixed dry mass of LH2-only ZBO tanks
+
+v0.4.4
+------
+- Fix DBS version file
+
+v0.4.3
+------
+- Added Spanish localization from fititales
+- Split KA/NFE patches into separate files due to their complexity
+- Fixed Scylla and Neptune having duplicated KA/NFE patches
+- CryoTanks 0.4.3
+-- Added Spanish localization from fititales
+- Updated DynamicBatteryStorage to 1.0.1
+-- Reduced logging
+-- Fixed an issue with generator parsing on ModuleResourceConverters
+
 v0.4.2
 ------
 - Updated B9PartSwitch to version 1.8.1
