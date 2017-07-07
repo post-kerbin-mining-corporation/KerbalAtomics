@@ -1,3 +1,8 @@
+v0.4.6
+------
+- CryoTanks 0.4.4
+-- Fixed dry mass of LH2-only ZBO tanks
+
 v0.4.5
 ------
 - Updated bundled B9PartSwitch to 1.9.0
