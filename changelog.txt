@@ -1,7 +1,12 @@
 v0.4.6
 ------
-- CryoTanks 0.4.4
--- Fixed dry mass of LH2-only ZBO tanks
+- Reduced core -> part energy transfer to 0.1% from between 10-1% for NFE integration patch
+- CryoTanks 0.4.5
+-- Added Russian translation from vladmir_v
+-- Fixed a typo in the version file
+-- Adjusted the position of the nodes for the compact variants of 3.75m tanks
+-- Fixed low cost of 5m hydrogen tanks
+-- Fixed slightly off cost of 10m hydrogen tank
 
 v0.4.5
 ------
