@@ -1,6 +1,11 @@
 v0.4.6
 ------
-- Reduced core -> part energy transfer to 0.1% from between 10-1% for NFE integration patch
+- NFE integration patch upgrades
+-- Eel now correctly includes a passive radiator
+-- Fixed several missing part fields in configs
+-- Reworked exhaust cooling to not use radiator system, so normal radiators can cool engine parts (reduces explosions)
+-- Exhaust cooling is now forgiving and takes ~10s to taper off after engine shutdown 
+-- Reduced core -> part energy transfer to 0.1% from between 10-1% (reduces explosions)
 - CryoTanks 0.4.5
 -- Added Russian translation from vladmir_v
 -- Fixed a typo in the version file
