@@ -1,3 +1,20 @@
+v0.4.6
+------
+- NFE integration patch upgrades
+-- Eel now correctly includes a passive radiator
+-- Fixed several missing part fields in configs
+-- Reworked exhaust cooling to not use radiator system, so normal radiators can cool engine parts (reduces explosions)
+-- Exhaust cooling is now forgiving and takes ~10s to taper off after engine shutdown
+-- Reduced core -> part energy transfer to 0.1% from between 10-1% (reduces explosions)
+- CryoTanks 0.4.5
+-- Added Russian translation from vladmir_v
+-- Fixed a typo in the version file
+-- Fixed 5m tanks throwing a B9PartSwitch warning on placement in the VAB
+-- Fixed 3.75m tanks having collider issues
+-- Adjusted the position of the nodes for the compact variants of 3.75m tanks
+-- Fixed low cost of 5m hydrogen tanks
+-- Fixed slightly off cost of 10m hydrogen tank
+
 v0.4.5
 ------
 - Updated bundled B9PartSwitch to 1.9.0
