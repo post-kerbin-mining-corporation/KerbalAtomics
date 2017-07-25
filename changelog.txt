@@ -1,5 +1,15 @@
 v0.4.7
 ------
+- Fixed normals on all engines
+- CryoTanks 0.4.6
+-- All tanks can now be cooled. Lifting tanks cast ~10% more to cool and have cooling disabled by default
+-- Repaired normals on tanks
+-- Fixed science costs of many tanks
+-- Refactored plugin to support multiple cryogenic fuels per tank
+-- Updates to MFT Compatibility
+- DynamicBatteryStorage 1.1.0
+-- Refactored plugin for many improvements
+-- Proper support for RealBattery
 
 v0.4.6
 ------
