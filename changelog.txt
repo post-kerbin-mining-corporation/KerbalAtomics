@@ -1,3 +1,8 @@
+v0.4.8
+------
+- CryoTanks 0.4.7
+-- Fixed an issue where parts with '_' in their name would not be patched properly
+
 v0.4.7
 ------
 - Fixed normals on all engines
