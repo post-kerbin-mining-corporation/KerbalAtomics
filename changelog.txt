@@ -1,6 +1,9 @@
 v0.4.10
 -------
 - Fixed LH2/LF multimode patch for the LV-N (thanks Wyzard)
+- Updated DynamicBatteryStorage to 1.2.0
+-- Fixed a bug that caused the buffer to be destroyed every second time it was created
+-- Fixed solar panel handling when Kopernicus is installed
 
 v0.4.9
 ------

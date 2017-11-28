@@ -1,6 +1,6 @@
-=====================
+======================
 KERBAL ATOMICS v0.4.10
-=====================
+======================
 
 This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen.
 Liquid Hydrogen is a messy fuel that leaks out of most tanks (slowly) and takes up a lot of space, but gives the highest possible specific impulse. Included are patches that allow all stock fuel tanks to contain the appropriate resources, and a set of new specialized LiquidHydrogen tanks that are insulated to stop leakage.
