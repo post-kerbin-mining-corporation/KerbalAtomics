@@ -1,6 +1,6 @@
-=====================
-KERBAL ATOMICS v0.4.8
-=====================
+======================
+KERBAL ATOMICS v0.4.10
+======================
 
 This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen.
 Liquid Hydrogen is a messy fuel that leaks out of most tanks (slowly) and takes up a lot of space, but gives the highest possible specific impulse. Included are patches that allow all stock fuel tanks to contain the appropriate resources, and a set of new specialized LiquidHydrogen tanks that are insulated to stop leakage.
@@ -11,9 +11,11 @@ DEPENDENCIES
 ============
 
 Required:
-- B9PartSwitch (1.9.0)
-- Community Resource Pack (0.7.1)
+- B9PartSwitch (1.10.0)
+- Community Resource Pack (0.8.0)
 - ModuleManager (v2.8.1)
+- Deployable Engines (1.1.0)
+- DynamicBatteryStorage (1.1.1)
 
 Optional
 - Community Tech Tree (v3.0+)

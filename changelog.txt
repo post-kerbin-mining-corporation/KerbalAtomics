@@ -1,3 +1,19 @@
+v0.4.10
+-------
+- Fixed LH2/LF multimode patch for the LV-N (thanks Wyzard)
+- Updated DynamicBatteryStorage to 1.2.0
+-- Fixed a bug that caused the buffer to be destroyed every second time it was created
+-- Fixed solar panel handling when Kopernicus is installed
+
+v0.4.9
+------
+- KSP 1.3.1
+- Dependency update
+- Cleaned up extra NTR patches that were still around from a previous patch
+- LV-N LH2 patch now creates an LF/LH2 multi-mode engine to help with craft transitions
+- CryoTanks 0.4.8
+-- Tanks no longer use up all EC
+
 v0.4.8
 ------
 - CryoTanks 0.4.7
