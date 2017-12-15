@@ -1,3 +1,11 @@
+v0.4.11
+-------
+- Updated MM to 3.0.1
+- Updated B9PartSwitch to 2.1.0
+- Updated CryoTanks to 0.4.9
+-- Deconflict new WBI fuel switcher
+- Added russian translation, courtesy of prcreeper
+
 v0.4.10
 -------
 - Fixed LH2/LF multimode patch for the LV-N (thanks Wyzard)
