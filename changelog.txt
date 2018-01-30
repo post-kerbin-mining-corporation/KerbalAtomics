@@ -1,3 +1,206 @@
+v0.4.11
+-------
+- Updated MM to 3.0.1
+- Updated B9PartSwitch to 2.1.0
+- Updated CryoTanks to 0.4.9
+-- Deconflict new WBI fuel switcher
+- Added russian translation, courtesy of prcreeper
+
+v0.4.10
+-------
+- Fixed LH2/LF multimode patch for the LV-N (thanks Wyzard)
+- Updated DynamicBatteryStorage to 1.2.0
+-- Fixed a bug that caused the buffer to be destroyed every second time it was created
+-- Fixed solar panel handling when Kopernicus is installed
+
+v0.4.9
+------
+- KSP 1.3.1
+- Dependency update
+- Cleaned up extra NTR patches that were still around from a previous patch
+- LV-N LH2 patch now creates an LF/LH2 multi-mode engine to help with craft transitions
+- CryoTanks 0.4.8
+-- Tanks no longer use up all EC
+
+v0.4.8
+------
+- CryoTanks 0.4.7
+-- Fixed an issue where parts with '_' in their name would not be patched properly
+
+v0.4.7
+------
+- Fixed normals on all engines
+- CryoTanks 0.4.6
+-- All tanks can now be cooled. Lifting tanks cast ~10% more to cool and have cooling disabled by default
+-- Repaired normals on tanks
+-- Fixed science costs of many tanks
+-- Refactored plugin to support multiple cryogenic fuels per tank
+-- Updates to MFT Compatibility
+- DynamicBatteryStorage 1.1.0
+-- Refactored plugin for many improvements
+-- Proper support for RealBattery
+
+v0.4.6
+------
+- NFE integration patch upgrades
+-- Eel now correctly includes a passive radiator
+-- Fixed several missing part fields in configs
+-- Reworked exhaust cooling to not use radiator system, so normal radiators can cool engine parts (reduces explosions)
+-- Exhaust cooling is now forgiving and takes ~10s to taper off after engine shutdown
+-- Reduced core -> part energy transfer to 0.1% from between 10-1% (reduces explosions)
+- CryoTanks 0.4.5
+-- Added Russian translation from vladmir_v
+-- Fixed a typo in the version file
+-- Fixed 5m tanks throwing a B9PartSwitch warning on placement in the VAB
+-- Fixed 3.75m tanks having collider issues
+-- Adjusted the position of the nodes for the compact variants of 3.75m tanks
+-- Fixed low cost of 5m hydrogen tanks
+-- Fixed slightly off cost of 10m hydrogen tank
+
+v0.4.5
+------
+- Updated bundled B9PartSwitch to 1.9.0
+- Updated bundled MM to 2.8.1
+- Fixed missing @ in NFElectrical patch for Eel
+- CryoTanks 0.4.4
+-- Fixed dry mass of LH2-only ZBO tanks
+
+v0.4.4
+------
+- Fix DBS version file
+
+v0.4.3
+------
+- Added Spanish localization from fititales
+- Split KA/NFE patches into separate files due to their complexity
+- Fixed Scylla and Neptune having duplicated KA/NFE patches
+- CryoTanks 0.4.3
+-- Added Spanish localization from fititales
+- Updated DynamicBatteryStorage to 1.0.1
+-- Reduced logging
+-- Fixed an issue with generator parsing on ModuleResourceConverters
+
+v0.4.2
+------
+- Updated B9PartSwitch to version 1.8.1
+- CryoTanks 0.4.2
+-- Fix incorrectly exported model for small 2.5m hydrogen tank
+-- Fix doubled dry mass of all hydrogen-containing tanks
+
+v0.4.1
+------
+- Fixed localization error on Scylla part switcher
+- Fixed incorrect mass, cost, thrust, specific impulse of Eel
+- Fixed missing shroud texture of Eel
+- CryoTanks 0.4.1
+-- Fixed volumes and descriptions of 5m hydrogen tanks
+-- Normalized specular exponents and normal map depths on all tanks
+-- Fixed a mesh duplication issue on 3.75m tanks
+-- Reduced instances of distorted tanget normal map seams on all tanks, where I couldn't fix it I've covered the worst instances with 'intentional' seams
+-- Restructured UV of 5m tanks to reduce tangent seam frequency
+
+v0.4.0
+------
+- KSP 1.3
+- Updated MM to 2.8.0
+- Updated B9PartSwitch to 1.8.0
+- Updated CRP to 0.7.1
+- Updated MiniAVC to 1.0.3.3
+- Rebuilt DeployableEngines for KSP 1.3
+- Switched to KSP 1.3's localization for strings
+- Added NV-10 'Eel' Atomic Rocket Motor: 0.625m solid-core nuclear engine with cogeneration
+- Added NV-GL 'Deliverance' Atomic Aerospike Rocket: 2.5m closed-cycle gas-core nuclear aerospike
+- Added NV-DC 'Scylla' Atomic Aerospike Rocket: 3.75m solid-core trimodal nuclear aerospike with LOX afterburner and cogeneration
+- Rebalanced engine costs to be generally higher
+- Rebalanced engine heat to be generally higher
+- Renamed engine model numbers so they're not matching the LV-N anymore (different company)
+- Adjusted CTT locations of some engines
+- Adjusted balance of LH2->LF patches for some KA engines
+- Fixed engine throttle and glow effects so that they show for all modes of bimodal engines
+- Fixed engine FX somewhat so that they don't interact with atmospheric FX
+- Completely changed NTR -> LH2 patches
+-- Any NTR that is not handled in a custom fashion has been replaced by a dynamic patcher by TheToric
+-- All NTRs patched in this way are consistently buffed with a 25% mass decrease and a 10% Isp increase
+-- The LF-reversion patch is similarly optimized
+- Significant improvements to CryoTanks package
+-- Now versioned (Version 0.4.0)
+-- Normalized LH2 tank mass ratios to 5 (from ~3.5), this affects all tanks containing LH2 or LH2/OX
+-- Normalized naming scheme for ZBO tanks to reflect their capacities
+-- Reworked tank capacities
+-- Improved fuel switching patch to account for more exceptions
+-- New 5m tank models (15m and 7.5m lengths)
+-- Deprecated 3.75m length tank variant for 3.75m inline tanks (temporary)
+-- Reworked models and textures for all fuel tanks
+-- New structureless variants for all inline tanks
+-- Optimized SimpleBoiloff plugin
+-- Cooling functions can now be disabled in the VAB
+-- Reduced the scope of the SimpleBoiloff plugin, most advanced functions are now part of DynamicBatteryStorage
+-- New sub-plugin: DynamicBatteryStorage
+--- Dynamically adjusts EC storage to combat KSP crap resource mechanics at high timewarp
+--- Should dramatically reduce instances of EC loss at high timewarp
+- Significant improvements to NF Electrical integration
+-- Part costs are correctly adjusted for EnrichedUranium cost so that there are no more zero-cost engines
+-- Negative alternators are and generators are correctly removed from the parts when patches are in use
+-- Engine reactor can now correctly start before being staged
+-- Reduced heat transfer between cores and parts
+-- Greatly reduced heat generation of conventional engine modules
+-- Cleaned up and labeled config files for more clarity
+
+v0.3.5
+------
+- Updated B9PartSwitch to 1.7.1
+- Updated CRP to 0.6.6
+- Updated AVC link
+- Fixed uranium consumption of LV-N in NFE mode
+- Fixed a boiloff issue that could occur when switching ships that were close to each other
+
+v0.3.4
+------
+- Marked for KSP 1.2.2
+- Updated bundled MM to 2.7.5
+- Updated bundled B9PartSwitch to 1.5.3
+- Updated bundled CRP to 0.6.4
+- Updated DeployableEngines to 2.1.0
+- Fixed a typo in an NFE extras patch
+
+v0.3.3
+------
+- Marked for KSP 1.2.1
+- Updated bundled MM to 2.7.4
+- Updated bundled CRP to 0.6.3
+- Fixed missing CTT patch for Emancipator engine
+- Increased thermal mass and explosion heat maximum of Emancipator engine
+- KPBS ISRU now produces LH2 (thanks Wyzard256)
+
+v0.3.2
+------
+- Updated CRP to 6.0.1
+- Fixed exceptions in VAB when using a ZBO tank for holding only non-cryo fuels
+- Fixed incorrect dry masses for ZBO tanks
+- Improved NFE compatibility for Emancipator engine
+
+v0.3.1
+------
+- Fixed contract killing issues
+
+v0.3.0
+------
+- KSP 1.2
+- Updated bundled MM
+- Updated bundled CRP
+- Updated bundled B9PartSwitch
+- Updated bundled DeployableEngines
+- Reexported all engine FX to fix interaction with atmospheric/highlight FX
+- Removed Radioactivity patch (should really be *in* Radioactivity)
+- Added LV-N-GX 'Emancipator' open cycle gas-core nuclear rocket
+- CryoTanks:
+-- General functionality improvements
+-- Tank real power usage is now shown in the info box
+-- Right clicking on a tank in the VAB now displays its power usage
+-- New analytics mode that runs at 1000x time warp and up which should do a much better job of calculating boiloff
+-- Lifting and ZBO tanks now have the same mass ratio
+-- ZBO tanks have a new alternate model that can be selected
+
 v0.2.6
 ------
 - Balance tweaks to NTRs
@@ -7,7 +210,7 @@ v0.2.6
 v0.2.5
 ------
 - Tweaks to NTR patch properties
-- Cost adjustments 
+- Cost adjustments
 
 v0.2.4
 ------
@@ -27,7 +230,7 @@ v0.2.2
 - KSP 1.1.2
 - Fix bundled B9PartSwitch
 - Update bundled MM version
-- Update bundled CRP version 
+- Update bundled CRP version
 - Fix switchable tank mass and cost issues
 - Fixed SXT hydrogen NTR patch typo
 - Added a few more NTR configs courtesy of forumgoers
@@ -68,4 +271,3 @@ v0.2.0
 0.1.0
 ------
 - Initial release
-
