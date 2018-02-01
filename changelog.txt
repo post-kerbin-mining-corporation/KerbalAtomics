@@ -1,3 +1,9 @@
+v0.4.12
+-------
+- Added engine nicknames to tags
+- Updated CryoTanks to 0.4.10
+-- Fixes tank capacities of ZBO tanks
+
 v0.4.11
 -------
 - Updated MM to 3.0.1
