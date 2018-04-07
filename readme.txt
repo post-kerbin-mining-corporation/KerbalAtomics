@@ -11,8 +11,8 @@ DEPENDENCIES
 ============
 
 Required:
-- B9PartSwitch (2.1.1)
-- Community Resource Pack (0.8.0)
+- B9PartSwitch (2.2.1)
+- Community Resource Pack (0.10.0)
 - ModuleManager (3.0.6)
 - Deployable Engines (1.2.0)
 - DynamicBatteryStorage (1.3.0)

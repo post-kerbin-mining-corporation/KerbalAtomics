@@ -4,6 +4,7 @@ v0.5.0
 - Updated bundled B9PartSwitch to 2.2.1
 - Updated MM to 3.0.6
 - Updated MiniAVC to 1.2.0.1
+- Updated CRP to 0.10.0
 - Updated DynamicBatteryStorage to 1.3.0
 - Updated CryoTanks to 1.0.0
 -- TBW
