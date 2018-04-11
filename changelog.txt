@@ -7,7 +7,19 @@ v0.5.0
 - Updated CRP to 0.10.0
 - Updated DynamicBatteryStorage to 1.3.0
 - Updated CryoTanks to 1.0.0
--- TBW
+-- Fixed boiloff being disabled if a tank's fuel was disabled
+-- Fixed boiloff rates being calculated incorrectly at timewarp
+-- Redid all tank textures, particularly foils
+-- Added 3 new tank models
+--- Short 2.5m (standard, compact variants)
+--- Short 3.75m (standard, compact, bare variants)
+--- Short 5m (standard, compact, bare variants)
+-- Fixed attach nodes of 3.75m compact tank variants
+-- Rebalanced capacities, masses and costs of all tanks
+-- Decreased cooling cost of ZBO tanks to 0.05 Ec/1000u
+-- Added an optional ability to specify a set of OUTPUT_RESOURCE blocks in a BOILOFFCONFIG. This causes boiloff to produce that resource with the specified ratio and flow mode. See Config Documentation section
+-- Added the optional ability to specify boiloff as dependent on solar/planetary radiation input. See Config Documentation section
+
 
 v0.4.11
 -------
