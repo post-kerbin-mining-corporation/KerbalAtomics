@@ -1,3 +1,9 @@
+v0.5.3
+-------
+- Updated bundled B9PartSwitch to 2.4.5
+- Updated CryoTanks to 1.0.3
+- Removed MiniAVC from distribution
+
 v0.5.2
 -------
 - KSP 1.5.0
