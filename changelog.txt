@@ -1,3 +1,8 @@
+v0.5.4
+-------
+- Updated bundled B9PartSwitch to 2.5.0
+- Updated CryoTanks to 1.0.4
+
 v0.5.3
 -------
 - Updated bundled B9PartSwitch to 2.4.5
