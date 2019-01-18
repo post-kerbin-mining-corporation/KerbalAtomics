@@ -69,6 +69,14 @@ This mod includes compatibility patches for the following mods:
 
 I certainly accept pull requests. Please target all such things to the `dev` branch though!
 
+## Translations
+
+For translation instructions please see [Localization Instructions](https://github.com/ChrisAdderley/KerbalAtomics/blob/master/GameData/KerbalAtomics/Localization/Localization.md)
+
+* **Spanish:** KSP forum user fitiales
+* **Russian:** KSP forum user prcreeper
+* **German:** KSP forum user Three_Pounds
+
 ## Licensing
 
 

@@ -1,5 +1,5 @@
 =====================
-KERBAL ATOMICS v0.5.4
+KERBAL ATOMICS v0.5.5
 =====================
 
 This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen.
@@ -46,6 +46,7 @@ LOCALIZATION
 This mod includes localization support, and includes translations for
 - Spanish (KSP forum user fitiales)
 - Russian (KSP forum user prcreeper)
+- German (KSP forum user Three_Pounds)
 
 =======
 KSP-AVC
