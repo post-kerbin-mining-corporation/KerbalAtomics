@@ -32,7 +32,7 @@ These components are required for the mod to function and are bundled as part of
 * [ModuleManager (3.1.3)](https://github.com/sarbian/ModuleManager)
 * [B9PartSwitch (2.6.0)](https://github.com/blowfishpro/B9PartSwitch)
 * [Community Resource Pack (1.0.0)](https://github.com/BobPalmer/CommunityResourcePack)
-* [CryoTanks (1.1.0)](https://github.com/ChrisAdderley/CryoTanks)
+* [CryoTanks (1.1.1)](https://github.com/ChrisAdderley/CryoTanks)
 * [DynamicBatteryStorage (1.4.0)](https://github.com/ChrisAdderley/DynamicBatteryStorage)
 * [DeployableEngines (1.0.0)](https://github.com/ChrisAdderley/DeployableEngines)
 
@@ -68,6 +68,14 @@ This mod includes compatibility patches for the following mods:
 ## Contributing
 
 I certainly accept pull requests. Please target all such things to the `dev` branch though!
+
+## Translations
+
+For translation instructions please see [Localization Instructions](https://github.com/ChrisAdderley/KerbalAtomics/blob/master/GameData/KerbalAtomics/Localization/Localization.md)
+
+* **Spanish:** KSP forum user fitiales
+* **Russian:** KSP forum user prcreeper
+* **German:** KSP forum user Three_Pounds
 
 ## Licensing
 
