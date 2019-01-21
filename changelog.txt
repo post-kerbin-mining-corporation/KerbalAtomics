@@ -1,5 +1,7 @@
 v0.5.5
 ------
+- Updated CryoTanks to 1.1.1
+- Fixed missing bulkhead profiles (thanks Streetwind)
 - German translation courtesy of Three_Pounds
 
 v0.5.4
