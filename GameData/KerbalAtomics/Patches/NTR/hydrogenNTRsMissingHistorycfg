@@ -1,5 +1,5 @@
 // Missing History CANDLE
-@PART[nuclearEngine_size0]:NEEDS[!NTRsUseLF]:BEFORE[zzLH2NTR]
+@PART[nuclearEngine_size0]:NEEDS[!NTRsUseLF]
 {	
 	!MODULE[ModuleAlternator] {}
 	MODULE
