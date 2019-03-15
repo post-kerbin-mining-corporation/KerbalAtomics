@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalAtomics-NTRsUseLF",
+    "$kref": "#/ckan/spacedock/710",
+    "$vref": "#/ckan/ksp-avc",
+    "name": "Kerbal Atomics - Liquid Fuel Only",
+    "author": "Nertea",
+    "abstract" : "Optional patch that reverts all Liquid Hydrogen using engines in Kerbal Atomics to use Liquid Fuel only, with a performance penalty",
+    "license": "MIT",
+    "resources": {
+      "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/130503-16x-kerbal-atomics-fancy-nuclear-engines-january-21/",
+      "repository": "https://github.com/ChrisAdderley/KerbalAtomics"
+    },
+    "depends": [
+        { "name" : "KerbalAtomics" }
+    ],
+    "install" : [
+        { "find" : "NTRsUseLF", "install_to" : "GameData" }
+    ]
+}

@@ -1,3 +1,12 @@
+v0.6.0
+------
+- Updated ModuleManager to 4.0.2
+- Compatibility with Restock LVN model
+- Tuned greys/symbols on parts to match Restock standards
+- Redid shrouds and white hull plated areas of parts to match new standards
+- Recolored highlights to match a new manufacturer color scheme
+- Recompressed most textures with better dds compressor
+
 v0.5.5
 ------
 - Updated CryoTanks to 1.1.1
