@@ -2,7 +2,7 @@
 KERBAL ATOMICS v1.0.0
 =====================
 
-This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock (and most mod) nuclear engine to run on Liquid Hydrogen.
+This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock nuclear engine to run on Liquid Hydrogen as an additional mode.
 Liquid Hydrogen is a messy fuel that leaks out of most tanks (slowly) and takes up a lot of space, but gives the highest possible specific impulse. Included are patches that allow all stock fuel tanks to contain the appropriate resources, and a set of new specialized LiquidHydrogen tanks that are insulated to stop leakage.
 
 ============
@@ -36,7 +36,8 @@ INSTALLATION OF EXTRAS
 
 Some extra patches are bundled that you can use to tweak your installation. To install them, drop the correct folder from the Extras folder in this archive into your KSP GameData Folder
 
-NTRsUseLF: Reverts all NTRs to using Liquid Fuel
+KerbalAtomicsNTRModSupport: Supports other NTR mods by converting their NTRs to use LiquidHydrogen
+KerbalAtomicNTRsUseLF: Reverts all NTRs to using Liquid Fuel
 NearFutureElectricalNTRs: Advanced NTR management when coupled with Near Future Electrical (EXPERIMENTAL)
 
 ============

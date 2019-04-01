@@ -4,7 +4,7 @@
     "$kref": "#/ckan/spacedock/710",
     "$vref": "#/ckan/ksp-avc",
     "name": "Kerbal Atomics",
-    "abstract" : "Provides several new and exciting nuclear engines to use in your game",
+    "abstract" : "Provides several new and exciting nuclear engines to use in your game in many size classes and technologies, such as gas-core reactors, nuclear aerospikes and multimode engines.",
     "license": "restricted",
     "resources": {
       "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/130503-16x-kerbal-atomics-fancy-nuclear-engines-january-21/",
@@ -18,7 +18,8 @@
         { "name" : "ModuleManager" }
     ],
     "recommends" : [
-        { "name" : "CommunityTechTree" }
+        { "name" : "CommunityTechTree" },
+        { "name" : "KerbalAtomics-NTRModSupport" }
     ],
     "suggests" : [
         { "name" : "CryoEngines" },

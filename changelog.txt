@@ -1,11 +1,16 @@
 v1.0.0
 ------
+- Final content update
 - Updated ModuleManager to 4.0.2
-- Compatibility with Restock LV-N model - new custom plumes for adaptive LF mode
-- Set of new effects for most engines
+- Changes to LH2 patching methodology
+  - LH2 patching for mod NTRs is now an optional Extra
+  - LV-N remains multi-mode patched
+  - New effects are added for LF mode
+  - Full compatibility with Restock LV-N model
+- Set of new effects for all engines
 - Tuned greys/symbols on parts to match Restock standards
-- Redid shrouds and white hull plated areas of parts to match new standards
-- Recolored highlights to match a new manufacturer color scheme
+- Redid shrouds and hull plated areas of parts to match new standards
+- Recolored orange highlights to match a new consistent manufacturer color scheme
 - Recompressed most textures with better dds compressor
 
 v0.5.5

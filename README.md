@@ -46,7 +46,8 @@ NOTE: Do NOT rename or move folders within the GameData folder - this mod uses a
 
 Some extra patches are bundled that you can use to tweak your installation. To install them, drop the correct folder from the **Extras** folder into your KSP GameData Folder
 
-* **NTRsUseLF**: Converts engines to use LF instead of LH2 at the cost of a big chunk of Isp
+* **KerbalAtomicsNTRModSupport**: Supports other NTR mods by converting their NTRs to use LiquidHydrogen
+* **KerbalAtomicsNTRsUseLF**: Converts engines to use LF instead of LH2 at the cost of a big chunk of Isp
 * **NearFutureElectricalNTRs**: When installed with [Near Future Electrical](https://github.com/ChrisAdderley/DeployableEngines), unlocks new functionality for nuclear engine operation. See more below
 
 ### Near Future Electrical Integration
