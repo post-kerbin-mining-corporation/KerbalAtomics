@@ -29,7 +29,7 @@ For more information, check out the [CryoTanks readme](https://github.com/ChrisA
 
 ### Required
 These components are required for the mod to function and are bundled as part of any download:
-* [ModuleManager (3.1.3)](https://github.com/sarbian/ModuleManager)
+* [ModuleManager (4.0.2)](https://github.com/sarbian/ModuleManager)
 * [B9PartSwitch (2.6.0)](https://github.com/blowfishpro/B9PartSwitch)
 * [Community Resource Pack (1.0.0)](https://github.com/BobPalmer/CommunityResourcePack)
 * [CryoTanks (1.1.1)](https://github.com/ChrisAdderley/CryoTanks)
@@ -46,7 +46,8 @@ NOTE: Do NOT rename or move folders within the GameData folder - this mod uses a
 
 Some extra patches are bundled that you can use to tweak your installation. To install them, drop the correct folder from the **Extras** folder into your KSP GameData Folder
 
-* **NTRsUseLF**: Converts engines to use LF instead of LH2 at the cost of a big chunk of Isp
+* **KerbalAtomicsNTRModSupport**: Supports other NTR mods by converting their NTRs to use LiquidHydrogen
+* **KerbalAtomicsNTRsUseLF**: Converts engines to use LF instead of LH2 at the cost of a big chunk of Isp
 * **NearFutureElectricalNTRs**: When installed with [Near Future Electrical](https://github.com/ChrisAdderley/DeployableEngines), unlocks new functionality for nuclear engine operation. See more below
 
 ### Near Future Electrical Integration

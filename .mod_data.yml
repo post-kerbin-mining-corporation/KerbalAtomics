@@ -1,0 +1,39 @@
+mod-name: KerbalAtomics
+package:
+  include-dependencies: true  # Include dependencies in the package
+  included-gamedata:
+    - KerbalAtomics
+  included-support:  # Include these root-level files in packages
+    - readme.txt
+    - changelog.txt
+dependencies:  # Configure dependencies
+  ModuleManager:
+    version: 4.0.2
+    location: s3
+  B9PartSwitch:
+    version: 2.6.0
+    location: s3
+  CommunityResourcePack:
+    version: 1.0.0
+    location: s3
+  DynamicBatteryStorage:
+    tag: 1.4.0
+    location: github
+    repository: ChrisAdderley/DynamicBatteryStorage
+  DeployableEngines:
+    tag: 1.0.0
+    location: github
+    repository: ChrisAdderley/DeployableEngines
+  CryoTanks:
+    tag: 1.1.1
+    location: github
+    repository: ChrisAdderley/CryoTanks
+deploy:
+  SpaceDock:
+    enabled: true  # activate/deactivate this deployment script
+    mod-id: 710  # The Spacedock mod ID for deployment
+  CurseForge:
+    enabled: true  # activate/deactivate this deployment script
+    mod-id: 241040  # The CurseForge mod ID for deployment
+  GitHub:
+    enabled: true  # activate/deactivate this deployment script
