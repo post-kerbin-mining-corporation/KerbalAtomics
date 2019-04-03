@@ -16,7 +16,7 @@
     ],
     "conflicts": [
         {"name": "KerbalAtomics-NTRModSupport"}
-    ]
+    ],
     "install" : [
         { "find" : "KerbalAtomicsNTRsUseLF", "install_to" : "GameData" }
     ]
