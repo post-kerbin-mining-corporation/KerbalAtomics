@@ -2,8 +2,10 @@ v1.0.1
 ------
 - KSP 1.7.x
 - Updated CryoTanks to 1.1.2
-- Updated DynamicBatteryStorage to 1.4.1
+- Updated DynamicBatteryStorage to 1.4.2
 - Updated DeployableEngines to 1.0.1
+- Fixed ghost of engine glow present on Poseidon in VAB
+- Fixed offset of Neptune model
 
 v1.0.0
 ------
