@@ -14,7 +14,7 @@ Required:
 - Community Resource Pack (1.0.0)
 - ModuleManager (4.0.2)
 - Deployable Engines (1.0.1)
-- DynamicBatteryStorage (1.4.1)
+- DynamicBatteryStorage (1.4.2)
 - CryoTanks (1.1.2)
 
 Optional
