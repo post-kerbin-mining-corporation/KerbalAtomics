@@ -32,9 +32,9 @@ These components are required for the mod to function and are bundled as part of
 * [ModuleManager (4.0.2)](https://github.com/sarbian/ModuleManager)
 * [B9PartSwitch (2.6.0)](https://github.com/blowfishpro/B9PartSwitch)
 * [Community Resource Pack (1.0.0)](https://github.com/BobPalmer/CommunityResourcePack)
-* [CryoTanks (1.1.1)](https://github.com/ChrisAdderley/CryoTanks)
-* [DynamicBatteryStorage (1.4.0)](https://github.com/ChrisAdderley/DynamicBatteryStorage)
-* [DeployableEngines (1.0.0)](https://github.com/ChrisAdderley/DeployableEngines)
+* [CryoTanks (1.1.2)](https://github.com/ChrisAdderley/CryoTanks)
+* [DynamicBatteryStorage (1.4.2)](https://github.com/ChrisAdderley/DynamicBatteryStorage)
+* [DeployableEngines (1.0.1)](https://github.com/ChrisAdderley/DeployableEngines)
 
 ## Installation
 
