@@ -27,5 +27,5 @@ There are some characters that should not be translated into another language an
 ## Translation Credits
 
 * fitiales (Spanish)
-* prcreeper (Russian)
+* prcreeper, Sooll3 (Russian)
 * Three_Pounds (German)
