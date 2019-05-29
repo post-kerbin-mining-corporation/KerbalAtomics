@@ -15,7 +15,7 @@ Required:
 - ModuleManager (4.0.2)
 - Deployable Engines (1.0.1)
 - DynamicBatteryStorage (1.4.2)
-- CryoTanks (1.1.2)
+- CryoTanks (1.1.3)
 
 Optional
 - Community Tech Tree (v3.0+)
