@@ -1,3 +1,9 @@
+v1.0.3
+------
+- Updated bundled B9PartSwitch to 2.8.0
+- Added compatibility patch for EngineLightRelit (courtesy of Nightside)
+- Updated Missing History Extras patches for LH2 NTRs, NFE Integration and Decaying RTGs (courtesy of Eridan)
+
 v1.0.2
 ------
 - Updated bundled B9PartSwitch to 2.7.1

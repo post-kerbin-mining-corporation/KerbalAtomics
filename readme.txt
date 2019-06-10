@@ -10,7 +10,7 @@ DEPENDENCIES
 ============
 
 Required:
-- B9PartSwitch (2.7.1)
+- B9PartSwitch (2.8.0)
 - Community Resource Pack (1.0.0)
 - ModuleManager (4.0.2)
 - Deployable Engines (1.0.1)
