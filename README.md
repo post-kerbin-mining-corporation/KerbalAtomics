@@ -30,11 +30,11 @@ For more information, check out the [CryoTanks readme](https://github.com/ChrisA
 ### Required
 These components are required for the mod to function and are bundled as part of any download:
 * [ModuleManager (4.0.2)](https://github.com/sarbian/ModuleManager)
-* [B9PartSwitch (2.8.0)](https://github.com/blowfishpro/B9PartSwitch)
+* [B9PartSwitch (2.8.1)](https://github.com/blowfishpro/B9PartSwitch)
 * [Community Resource Pack (1.0.0)](https://github.com/BobPalmer/CommunityResourcePack)
-* [CryoTanks (1.1.4)](https://github.com/ChrisAdderley/CryoTanks)
-* [DynamicBatteryStorage (2.0.0)](https://github.com/ChrisAdderley/DynamicBatteryStorage)
-* [DeployableEngines (1.0.1)](https://github.com/ChrisAdderley/DeployableEngines)
+* [CryoTanks (1.2.0)](https://github.com/ChrisAdderley/CryoTanks)
+* [DynamicBatteryStorage (2.0.2)](https://github.com/ChrisAdderley/DynamicBatteryStorage)
+* [DeployableEngines (1.1.0)](https://github.com/ChrisAdderley/DeployableEngines)
 
 ## Installation
 

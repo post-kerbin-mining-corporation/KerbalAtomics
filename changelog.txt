@@ -1,3 +1,28 @@
+v1.0.4
+------
+- Updated B9PartSwitch to 2.8.1
+- Updated DynamicBatteryStorage to 2.0.2
+  - Added support for GenericFieldDataHandler - a simple plug and play handler for other mods to use
+  - Fixed FissionFlowRadiator adding heat to the simulation instead of removing it
+  - Fixed two instances of null reference exceptions when switching vessels/scenes
+- Updated DeployableEngines to 1.1.0
+  - Added new ModuleAdvancedLookAtConstraint module
+    - Version of basic FXModuleLookConstraint with the addition of viewing vector stability
+    - Tries (mostly successfully) to ensure a constrained object's  up vector (green transform in unity) matches the up vector of the target object, which resolves problems with almost vertical/vertical gimbal pistons
+    - Same syntax for configs as FXModuleLookConstraint (see GitHub wiki for more details)
+- Updated CryoTanks to 1.2.0
+  - Fixed a localization typo
+  - Tuned VAB UI part tooltip fields for boiloff module
+  - Reworked textures of foil tanks to match Restock and Near Future Construction
+  - Normalized grey to be similar to all my other mods
+  - Recompressed all textures with better compression algorithm
+  - Added optional simplistic draft Liquid Methane support
+    - Slightly cryogenic (1/10th the boiloff rate of Liquid Hydrogen)
+    - Similar mass ratio to Liquid Fuel (9)
+    - Higher cost ratio compared to Liquid Fuel (0.12 vs 0.1)
+    - Enabled by declaring any MM patch with :FOR[CryoTanksMethalox] or including a folder in GameData called CryoTanksMethalox
+- Actually fixed MissingHistory compatibility this time (thanks Wyzard)
+
 v1.0.3
 ------
 - Updated bundled B9PartSwitch to 2.8.0
