@@ -17,7 +17,7 @@ dependencies:  # Configure dependencies
     version: 1.0.0
     location: s3
   DynamicBatteryStorage:
-    tag: 2.0.2
+    tag: 2.0.3
     location: github
     repository: ChrisAdderley/DynamicBatteryStorage
   DeployableEngines:
@@ -25,7 +25,7 @@ dependencies:  # Configure dependencies
     location: github
     repository: ChrisAdderley/DeployableEngines
   CryoTanks:
-    tag: 1.2.0
+    tag: 1.2.1
     location: github
     repository: ChrisAdderley/CryoTanks
 deploy:
