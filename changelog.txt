@@ -1,3 +1,8 @@
+v1.0.6
+------
+- Fixed MissingHistory "Candle" and "Beacon" engine plumes under RealPume (Wyzard256)
+- Fixed a plume issue on the Deliverance aerospike
+
 v1.0.5
 ------
 - Updated B9PartSwitch to 2.10.0

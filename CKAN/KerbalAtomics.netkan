@@ -13,9 +13,12 @@
     "depends": [
         { "name" : "B9PartSwitch" },
         { "name" : "CommunityResourcePack" },
-        { "name" : "CryoTanks" },
         { "name" : "DeployableEngines" },
         { "name" : "ModuleManager" }
+        { "any_of": [
+            { "name": "CryoTanks" },
+            { "name": "KerbalAtomics-NTRsUseLF" }
+        ] }
     ],
     "recommends" : [
         { "name" : "CommunityTechTree" },
