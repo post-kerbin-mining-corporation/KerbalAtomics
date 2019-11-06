@@ -1,5 +1,5 @@
 =====================
-KERBAL ATOMICS v1.0.4
+KERBAL ATOMICS v1.0.6
 =====================
 
 This pack aims to add more options to nuclear thermal propulsion systems in KSP. It adds several engines and modifies the stock nuclear engine to run on Liquid Hydrogen as an additional mode.
@@ -16,6 +16,7 @@ Required:
 - Deployable Engines (1.2.0)
 - DynamicBatteryStorage (2.1.0)
 - CryoTanks (1.3.0)
+
 
 Optional
 - Community Tech Tree (v3.0+)
