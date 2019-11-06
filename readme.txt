@@ -15,7 +15,7 @@ Required:
 - ModuleManager (4.1.0)
 - Deployable Engines (1.2.0)
 - DynamicBatteryStorage (2.1.0)
-- CryoTanks (1.3.0)
+- CryoTanks (1.4.0)
 
 
 Optional
