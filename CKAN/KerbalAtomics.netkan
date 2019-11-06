@@ -14,7 +14,7 @@
         { "name" : "B9PartSwitch" },
         { "name" : "CommunityResourcePack" },
         { "name" : "DeployableEngines" },
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
         { "any_of": [
             { "name": "CryoTanks" },
             { "name": "KerbalAtomics-NTRsUseLF" }
