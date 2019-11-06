@@ -10,12 +10,12 @@ DEPENDENCIES
 ============
 
 Required:
-- B9PartSwitch (2.8.1)
-- Community Resource Pack (1.0.0)
-- ModuleManager (4.0.2)
-- Deployable Engines (1.1.0)
-- DynamicBatteryStorage (2.0.3)
-- CryoTanks (1.2.1)
+- B9PartSwitch (2.12.1)
+- Community Resource Pack (1.3.0)
+- ModuleManager (4.1.0)
+- Deployable Engines (1.2.0)
+- DynamicBatteryStorage (2.1.0)
+- CryoTanks (1.3.0)
 
 Optional
 - Community Tech Tree (v3.0+)
