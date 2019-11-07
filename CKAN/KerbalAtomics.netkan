@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "KerbalAtomics",
     "$kref": "#/ckan/spacedock/710",
     "$vref": "#/ckan/ksp-avc",
@@ -14,7 +14,7 @@
         { "name" : "B9PartSwitch" },
         { "name" : "CommunityResourcePack" },
         { "name" : "DeployableEngines" },
-        { "name" : "ModuleManager" }
+        { "name" : "ModuleManager" },
         { "any_of": [
             { "name": "CryoTanks" },
             { "name": "KerbalAtomics-NTRsUseLF" }
