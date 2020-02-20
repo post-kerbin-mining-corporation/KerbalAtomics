@@ -1,3 +1,13 @@
+v1.1.2
+------
+- KSP 1.8 update
+- Updated B9PartSwitch to 2.3.0
+- Updated DynamicBatteryStorage to 2.1.5
+- Updated DeployableEngines to 1.2.1
+- Updated CryoTanks to 1.4.1
+- Updated ModuleManager to 4.1.3
+- Updates to Russian localization 
+
 v1.1.1
 ------
 - FIxed missing MM
