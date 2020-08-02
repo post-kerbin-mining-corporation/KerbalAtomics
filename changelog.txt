@@ -1,12 +1,34 @@
+v1.1.4
+------
+- Marked for KSP 1.10.x
+- Updated DynamicBatteryStorage to 2.1.7
+- Updated B9PartSwitch to 2.17.0
+- Updated CryoTanks to 1.5.2
+- Updated DeployableEngines to 1.2.2
+- Updated ModuleManager to 4.1.4
+- New Chinese localization by tinygrox
+- Restock+ Cherenkov now gets a LH2/LF mode switch + custom effects
+
+v1.1.3
+------
+- Updated DynamicBatteryStorage to 2.1.6
+- Updated B9PartSwitch to 2.16.0
+- Updated CryoTanks to 1.5.0
+ - Fixed a typo in large ISRU under methalox mode
+ - Added ability to mark a tank in config as uncoolable (CoolingAllowed = false)
+ - Added special handling to the MH/RS+ soyuz tanks to allow them to use the switcher even though they have an engine module
+ - Tuned cost of LF-only tanks with the fuel switcher to be approximately $0.8/u (previously was 0.5)
+- Added LF/LH2 mode switch to Restock+ Cherenkov when installed
+
 v1.1.2
 ------
-- KSP 1.8 update
+- KSP 1.9 update
 - Updated B9PartSwitch to 2.3.0
 - Updated DynamicBatteryStorage to 2.1.5
 - Updated DeployableEngines to 1.2.1
 - Updated CryoTanks to 1.4.2
 - Updated ModuleManager to 4.1.3
-- Updates to Russian localization 
+- Updates to Russian localization
 
 v1.1.1
 ------
