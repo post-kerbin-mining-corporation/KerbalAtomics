@@ -32,9 +32,9 @@ These components are required for the mod to function and are bundled as part of
 * [ModuleManager (4.1.4)](https://github.com/sarbian/ModuleManager)
 * [B9PartSwitch (2.17.0)](https://github.com/blowfishpro/B9PartSwitch)
 * [Community Resource Pack (1.3.0)](https://github.com/BobPalmer/CommunityResourcePack)
-* [CryoTanks (1.5.2)](https://github.com/ChrisAdderley/CryoTanks)
-* [DynamicBatteryStorage (2.1.7)](https://github.com/ChrisAdderley/DynamicBatteryStorage)
-* [DeployableEngines (1.2.2)](https://github.com/ChrisAdderley/DeployableEngines)
+* [CryoTanks (1.5.2)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
+* [DynamicBatteryStorage (2.1.7)](https://github.com/post-kerbin-mining-corporation/DynamicBatteryStorage)
+* [DeployableEngines (1.2.2)](https://github.com/post-kerbin-mining-corporation/DeployableEngines)
 
 ## Installation
 

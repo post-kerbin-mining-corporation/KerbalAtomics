@@ -9,7 +9,7 @@
     "license": "MIT",
     "resources": {
       "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/130503-16x-kerbal-atomics-fancy-nuclear-engines-january-21/",
-      "repository": "https://github.com/ChrisAdderley/KerbalAtomics"
+      "repository": "https://github.com/post-kerbin-mining-corporation/KerbalAtomics"
     },
     "depends": [
         { "name" : "KerbalAtomics" }
