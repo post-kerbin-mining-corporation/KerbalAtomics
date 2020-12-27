@@ -4,7 +4,7 @@
     "$kref": "#/ckan/spacedock/710",
     "$vref": "#/ckan/ksp-avc/KerbalAtomics.version",
     "name": "Kerbal Atomics - NFE Integration",
-    "author": "Nertea",
+    "author": "Nertea (Chris Adderley)",
     "abstract" : "Optional, experimental patch that makes Kerbal Atomics nuclear engines utilize the Near Future Electrical reactor plugin. Advanced reactor engineers only. ",
     "license": "MIT",
     "resources": {

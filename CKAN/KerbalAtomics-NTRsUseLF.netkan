@@ -4,7 +4,7 @@
     "$kref": "#/ckan/spacedock/710",
     "$vref": "#/ckan/ksp-avc/KerbalAtomics.version",
     "name": "Kerbal Atomics - Liquid Fuel Only",
-    "author": "Nertea",
+    "author": "Nertea (Chris Adderley)",
     "abstract" : "Optional patch that makes all Liquid Hydrogen using engines in Kerbal Atomics use Liquid Fuel only, with a performance penalty. Will negatively affect vessels with KA engines in-flight.",
     "license": "MIT",
     "resources": {
