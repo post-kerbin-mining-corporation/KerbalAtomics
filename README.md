@@ -30,11 +30,11 @@ For more information, check out the [CryoTanks readme](https://github.com/ChrisA
 ### Required
 These components are required for the mod to function and are bundled as part of any download:
 * [ModuleManager (4.1.4)](https://github.com/sarbian/ModuleManager)
-* [B9PartSwitch (2.17.0)](https://github.com/blowfishpro/B9PartSwitch)
-* [Community Resource Pack (1.3.0)](https://github.com/BobPalmer/CommunityResourcePack)
-* [CryoTanks (1.6.0)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
-* [DynamicBatteryStorage (2.2.2)](https://github.com/post-kerbin-mining-corporation/DynamicBatteryStorage)
-* [DeployableEngines (1.3.0)](https://github.com/post-kerbin-mining-corporation/DeployableEngines)
+* [B9PartSwitch (2.18.0)](https://github.com/blowfishpro/B9PartSwitch)
+* [Community Resource Pack (1.4.2)](https://github.com/BobPalmer/CommunityResourcePack)
+* [CryoTanks (1.6.1)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
+* [DynamicBatteryStorage (2.2.4)](https://github.com/post-kerbin-mining-corporation/DynamicBatteryStorage)
+* [DeployableEngines (1.3.1)](https://github.com/post-kerbin-mining-corporation/DeployableEngines)
 
 ## Installation
 
@@ -48,17 +48,6 @@ Some extra patches are bundled that you can use to tweak your installation. To i
 
 * **KerbalAtomicsNTRModSupport**: Supports other NTR mods by converting their NTRs to use LiquidHydrogen
 * **KerbalAtomicsNTRsUseLF**: Converts engines to use LF instead of LH2 at the cost of a big chunk of Isp
-* **NearFutureElectricalNTRs**: When installed with [Near Future Electrical](https://github.com/ChrisAdderley/DeployableEngines), unlocks new functionality for nuclear engine operation. See more below
-
-### Near Future Electrical Integration
-
-For those desiring more integration with NF Electrical, such as power-producing reactors, the NearFutureElectricalNTRs patch can be installed. This increases reactor realism but also makes them much more complex to operate.
-
-* **Reactor Integration**: NTRs have a reactor that must be activated and heated up before they can be used for thrust. Operating the engine without it on will produce no thrust and just waste propellant.
-* **Reactor Cooling**: Like NFE power reactors, the NTR reactor has to be cooled while in use. Running propellant through the engine will remove 100% of generated heat, but if you want to leave the reactor on when not thrusting, you will need to add radiators.
-* **Power Generation**: Trimodal NTRs can dedicate a bit of their capacity to produce power. The reactor must be on to do this, 1% reactor throttle is enough to generate full power/
-* **Fuel Consumption**: Running the reactor will use up fuel, included in the engines. The engines can be refueled in the same was as the ones in NFE. Note that in this mode, the Emancipator engine can indeed be refueled.
-* **Engine Heat Generation**: When this patch is installed, the "overheat" of the NTRs is disabled
 
 ## External Mod Compatibility
 
