@@ -1,3 +1,15 @@
+v1.3.0
+------
+- KSP 1.12
+- Updated B9PartSwitch to 2.18.0
+- Updated CryoTanks to 1.6.1
+- Updated DeployableEngines to 1.3.1
+- Updated DynamicBatteryStorage to 2.2.4
+- NearFutureElectrical NTRs Extra has been removed forever
+- Deconfliction work with SystemHeatFissionEngines, it will now be harder to install both at once and break both mods
+- Waterfall effects updated to support Waterfall 0.6.0
+- New basic LH2, Augmented LH2, gas core, open-cycle gas-core plumes
+
 v1.2.1
 ------
 - Fixed some effect typos affecting the LV-N and the Stubber
