@@ -8,6 +8,7 @@ v1.3.0
 - NearFutureElectrical NTRs Extra has been removed forever
 - Deconfliction work with SystemHeatFissionEngines, it will now be harder to install both at once and break both mods
 - Waterfall effects updated to support Waterfall 0.6.0
+- New basic LH2, Augmented LH2, gas core, open-cycle gas-core plumes
 
 v1.2.1
 ------
