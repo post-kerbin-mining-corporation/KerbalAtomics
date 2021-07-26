@@ -1,3 +1,8 @@
+v1.3.1
+------
+- Fixed scylla waterfall plume
+- Fixed scale of KA waterfall effects on Restock LV-N 
+
 v1.3.0
 ------
 - KSP 1.12
