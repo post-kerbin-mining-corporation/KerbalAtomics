@@ -29,7 +29,7 @@ For more information, check out the [CryoTanks readme](https://github.com/ChrisA
 
 ### Required
 These components are required for the mod to function and are bundled as part of any download:
-* [ModuleManager (4.1.4)](https://github.com/sarbian/ModuleManager)
+* [ModuleManager (4.2.1)](https://github.com/sarbian/ModuleManager)
 * [B9PartSwitch (2.18.0)](https://github.com/blowfishpro/B9PartSwitch)
 * [Community Resource Pack (1.4.2)](https://github.com/BobPalmer/CommunityResourcePack)
 * [CryoTanks (1.6.1)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
