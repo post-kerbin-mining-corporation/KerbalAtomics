@@ -1,3 +1,7 @@
+v1.3.3
+------
+- Updated CryoTanks to 1.6.4
+
 v1.3.2
 ------
 - Updated bundled ModuleManager to 4.2.1
