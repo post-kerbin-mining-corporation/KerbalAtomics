@@ -29,11 +29,11 @@ For more information, check out the [CryoTanks readme](https://github.com/ChrisA
 
 ### Required
 These components are required for the mod to function and are bundled as part of any download:
-* [ModuleManager (4.2.1)](https://github.com/sarbian/ModuleManager)
-* [B9PartSwitch (2.18.0)](https://github.com/blowfishpro/B9PartSwitch)
+* [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
+* [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
 * [Community Resource Pack (1.4.2)](https://github.com/BobPalmer/CommunityResourcePack)
-* [CryoTanks (1.6.1)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
-* [DynamicBatteryStorage (2.2.4)](https://github.com/post-kerbin-mining-corporation/DynamicBatteryStorage)
+* [CryoTanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
+* [DynamicBatteryStorage (2.3.0)](https://github.com/post-kerbin-mining-corporation/DynamicBatteryStorage)
 * [DeployableEngines (1.3.1)](https://github.com/post-kerbin-mining-corporation/DeployableEngines)
 
 ## Installation
